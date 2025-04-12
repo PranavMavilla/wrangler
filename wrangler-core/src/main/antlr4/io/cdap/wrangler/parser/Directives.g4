@@ -311,3 +311,8 @@ fragment Int
 fragment Digit
  : [0-9]
  ;
+BYTE_SIZE     : DIGIT+ ('.' DIGIT+)? BYTE_UNIT ;
+TIME_DURATION : DIGIT+ ('.' DIGIT+)? TIME_UNIT ;
+
+fragment BYTE_UNIT : [kK][bB] | [mM][bB] | [gG][bB] | [bB] ;
+fragment TIME_UNIT : [mM][sS] | [sS] | [mM] | [hH] ;
