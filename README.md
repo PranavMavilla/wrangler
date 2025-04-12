@@ -216,3 +216,14 @@ Cask is a trademark of Cask Data, Inc. All rights reserved.
 
 Apache, Apache HBase, and HBase are trademarks of The Apache Software Foundation. Used with
 permission. No endorsement by The Apache Software Foundation is implied by the use of these marks.
+
+
+
+Wrangler now supports:
+
+- Byte Size Units: B, KB, MB, GB
+- Time Durations: ms, s, m, h
+
+You can use the new directive as:
+aggregate-stats :data_size :latency total_size_mb total_time_sec
+
