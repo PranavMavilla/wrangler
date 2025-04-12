@@ -1,0 +1,5 @@
+Prompt 1: Java parser for byte size units (e.g., 10KB, 1.5MB)
+Prompt 2: Lexer rule for time duration units (e.g., 2s, 1h, 5ms)
+Prompt 3: CDAP Wrangler directive that aggregates byte size and time
+Prompt 4: Write test using TestingRig for aggregate directive
+Prompt 5: Convert total bytes to MB and total ms to seconds in directive
